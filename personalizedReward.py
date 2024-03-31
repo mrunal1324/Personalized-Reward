@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 # Load the dataset with Latin-1 encoding
 def load_data():
-    data = pd.read_csv('rewards.csv',engine='openpyxl')
+    data = pd.read_csv('rewards.csv')
     return data
 
 # Function to train the Random Forest Classifier
